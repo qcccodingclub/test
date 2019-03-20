@@ -1,0 +1,68 @@
+/*font-family: 'Sniglet', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Marmelad', sans-serif;*/
+
+body,html, #showcase{
+    height: 100%;
+    margin: 0;
+}
+.topnav{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.topnav a{
+    text-decoration: none;
+    font-family: 'Sniglet', cursive;
+    font-size: 20px;
+    padding: 20px 20px;
+    display: inline-block;/*add to get height*/
+    color: #e7e7e7;
+}
+.topnav a:hover{
+    background: rgba(38, 192, 102, 0.466);
+}
+.showcase-text{
+    margin: auto;
+    margin-top: 30px;
+    width: 75%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+}
+#fav-food{
+    font-family: 'Marmelad', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+#welcome{
+    margin: 0;
+    font-family: 'Shadows Into Light', cursive;
+    
+    font-size: 60px;
+    text-align: center;
+}
+.wrapper-showcase{
+    background: url('/img/board1.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.showcase-text button{
+    margin-top: 0px;
+    border: 2px,,solid,#fff;
+    border-radius:5px;
+    padding:14px 28px;
+    background:transparent;
+    color:white;
+    font-size:25px;
+}
+.showcase-text button:hover{
+    background: rgba(38, 192, 102, 0.5);
+}
+.showcase-footer{
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
